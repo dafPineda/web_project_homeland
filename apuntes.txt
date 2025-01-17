@@ -1,0 +1,19 @@
+Pantallas
+320px, 768px y 1280px -- Puntos de ruptura  544px y 1024px
+  que son sacados por las medias entre Pantallas
+
+  Para hacer que tu sitio sea responsivo, debes saber cómo
+    reemplazar valores absolutos, tales como pixeles, con valores relativos como % y fr.
+
+  Para un elemento con line-height y font-size establecidos en el mismo elemento, el valor
+    numérico de line-height (es decir, 1.5) es simplemente el porcentaje dividido entre 100
+    (e.g. 150%).
+
+
+
+
+
+
+
+@Media crea los cortes para que los objetos se actualicen a una nueva posicion
+Agregar gris filter: grayscale(100%);
