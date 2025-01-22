@@ -11,6 +11,7 @@ Pantallas
 
 Notas: No dejes comentarios en los archivos
     "main" siempre tiene una etiqueta "Content"
+    Empezamos a usar el uso de fuentes locales. Para mayor info, entra a TripleTem
 
 
 
