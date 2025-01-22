@@ -9,7 +9,7 @@ Pantallas
     numérico de line-height (es decir, 1.5) es simplemente el porcentaje dividido entre 100
     (e.g. 150%).
 
-
+Notas: No dejes comentarios en los archivos
 
 
 
