@@ -1,18 +1,15 @@
-body{
+body {
   margin: 0;
 }
-.page{
-    margin:0;
-    padding:auto;
-    min-width: 1100px;
-    max-width: 1600px;
-    background-color: #2A2C2F;
-    line-height: 20px;
-    overflow: hidden;
-    color:#FFF;
-    display: flex;
-    flex-direction: column;
+.page {
+  margin: 0;
+  padding: 0;
+  min-width: 1100px;
+  max-width: 1600px;
+  background-color: #2a2c2f;
+  line-height: 20px;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
 }
-
-
-
