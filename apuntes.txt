@@ -10,7 +10,7 @@ Pantallas
     (e.g. 150%).
 
 Notas: No dejes comentarios en los archivos
-
+    "main" siempre tiene una etiqueta "Content"
 
 
 
