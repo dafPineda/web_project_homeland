@@ -1,26 +1,28 @@
-.header{
-  width: 100%;
+.header {
+  width: auto;
   margin: 0;
-  padding: 0;
   display: flex;
+  justify-content: center;
 }
 
-.header__image{
-  margin:34px auto 0;
-  max-width:254px;
-  max-height:68.94px;
-  object-fit: cover;
+.header__image {
+  margin-top: 10vh;
+  max-width: 254px;
+  max-height: 68.94px;
 }
 
-@media(max-width:1024px){
-  .header__image{
-    transform: scale(1.5);
+@media (max-width: 1024px) {
+  .header {
+    text-align: center;
+  }
+  .header__image {
+    transform: scale(1);
   }
 }
 
-@media (max-width:544px){
-  .header__image{
-    margin-top:25vh;
+@media (max-width: 544px) {
+  .header__image {
+    margin-top: 25vh;
     transform: scale(2.5);
   }
 }

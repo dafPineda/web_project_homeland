@@ -1,87 +1,87 @@
-.intro{
-  margin:0;
-  margin-left: 8vh;
-  margin-right: 25vh;
+.intro {
+  margin: 0;
+  margin-left: 18vh;
+  margin-right: 45vh;
   padding: 0;
 }
-.intro__title{
+.intro__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 54px;
+  font-size: 70px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 80px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.intro__text{
+.intro__text {
   display: flex;
   flex-direction: column;
-  margin:0;
-  margin-right: 5vh;
+  margin: 0;
+  margin-right: 25vh;
+  font-size: 33px;
 }
-.intro__text_author{
-  font-family: "Inter",Arial, Helvetica, sans-serif;
-  font-size: 24px;
+.intro__text_author {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.intro__text_author-left{
+.intro__text_author-left {
   text-align: right;
 }
-.intro__text_little{
-  margin-top: 40px;
+.intro__text_little {
+  margin-top: 5vh;
+  margin-right: 30vh;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 26.08px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
-@media (max-width:1024px){
-  .intro{
-    margin: 2vh;
+@media (max-width: 1024px) {
+  .intro {
+    margin: 10%;
   }
-  .intro__title{
+  .intro__title {
     margin-right: 10%;
     font-size: 67px;
   }
-  .intro__text{
-    margin:0;
-    max-width:100%;
+  .intro__text {
+    margin: 0;
+    max-width: 100%;
   }
-  .intro__text_author{
-    font-size:38px;
+  .intro__text_author {
+    font-size: 38px;
   }
-  .intro__text_little{
+  .intro__text_little {
     margin-top: 60px;
     font-size: 25px;
   }
 }
 
-@media(max-width:544px){
-  .intro{
-    margin:5vh;
+@media (max-width: 544px) {
+  .intro {
+    margin: 5vh;
   }
-  .intro__title{
-    margin:0;
+  .intro__title {
+    margin: 0;
     font-size: 20vh;
     line-height: 22vh;
   }
-  .intro__text_author{
+  .intro__text_author {
     margin-top: 20vh;
     font-size: 15vh;
     line-height: 15vh;
   }
-  .intro__text_author-left{
+  .intro__text_author-left {
     line-height: 5vh;
   }
-  .intro__text_little{
+  .intro__text_little {
     margin-top: 20vh;
     font-size: 10vh;
     line-height: 13vh;
