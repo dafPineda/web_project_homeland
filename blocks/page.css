@@ -17,7 +17,6 @@ body {
 
 @media (max-width: 1024px) {
   .page {
-    min-width: auto;
-    max-width: auto;
+    width: auto;
   }
 }
