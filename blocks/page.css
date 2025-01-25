@@ -14,3 +14,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 1024px) {
+  .page {
+    min-width: auto;
+    max-width: auto;
+  }
+}

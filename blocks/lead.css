@@ -40,12 +40,12 @@
 
 @media (max-width: 1024px) {
   .lead__title {
-    margin-top: 100px;
-    transform: scale(1);
+    margin-top: 15vh;
   }
   .lead__subtitle {
-    margin-top: 50px;
-    transform: scale(1.4);
+    width: auto;
+    margin: 10vh 5vh;
+    transform: scale(1.1);
   }
   .lead__image {
     margin: 20px;

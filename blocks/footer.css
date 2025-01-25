@@ -17,8 +17,11 @@
 }
 
 @media (max-width: 1024px) {
+  .footer {
+    margin-top: 5vh;
+  }
   .footer__copyright {
-    font-size: 1.2vh;
+    font-size: 1.7vh;
   }
 }
 

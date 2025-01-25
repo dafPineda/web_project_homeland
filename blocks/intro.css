@@ -45,22 +45,22 @@
 
 @media (max-width: 1024px) {
   .intro {
-    margin: 10%;
+    margin: 5vh;
   }
   .intro__title {
-    margin-right: 10%;
-    font-size: 67px;
+    margin-right: 10vh;
+    line-height: 55px;
+    font-size: 50px;
   }
   .intro__text {
     margin: 0;
-    max-width: 100%;
   }
   .intro__text_author {
-    font-size: 38px;
+    font-size: 28px;
   }
   .intro__text_little {
-    margin-top: 60px;
-    font-size: 25px;
+    margin-top: 3vh;
+    font-size: 18px;
   }
 }
 
