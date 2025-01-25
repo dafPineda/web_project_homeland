@@ -59,11 +59,17 @@
 
 @media (max-width: 544px) {
   .lead__title {
-    margin-top: 200px;
-    transform: scale(1.8);
+    margin: 0;
+    margin-top: 10vh;
+    font-size: 14vw;
+    line-height: 14vw;
+    width: auto;
   }
   .lead__subtitle {
-    margin-top: 190px;
-    font-size: 40px;
+    margin: 0;
+    margin-top: 0vh;
+    font-size: 5vw;
+    line-height: 5vw;
+    width: auto;
   }
 }

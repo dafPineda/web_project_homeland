@@ -12,18 +12,9 @@
   max-height: 68.94px;
 }
 
-/* @media (max-width: 1024px) {
-  .header {
-    text-align: center;
-  }
+@media (max-width: 544px) {
   .header__image {
-    transform: scale(1);
+    margin-top: 10vh;
+    transform: scale(1.5);
   }
-} */
-
-/* @media (max-width: 544px) {
-  .header__image {
-    margin-top: 25vh;
-    transform: scale(2.5);
-  }
-} */
+}
