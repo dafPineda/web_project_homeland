@@ -1,6 +1,8 @@
 Pantallas
 320px, 768px y 1280px -- Puntos de ruptura  544px y 1024px
   que son sacados por las medias entre Pantallas
+  470px, 665px, 999px, 1100px y 1500px. Checalos tambien
+
 
   Para hacer que tu sitio sea responsivo, debes saber cómo
     reemplazar valores absolutos, tales como pixeles, con valores relativos como % y fr.
@@ -12,7 +14,7 @@ Pantallas
 Notas: No dejes comentarios en los archivos
     "main" siempre tiene una etiqueta "Content"
     Empezamos a usar el uso de fuentes locales. Para mayor info, entra a TripleTem
-    
+
 
 
 
