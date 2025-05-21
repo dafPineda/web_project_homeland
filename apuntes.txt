@@ -1,5 +1,5 @@
 Pantallas
-320px, 768px y 1280px -- Puntos de ruptura  544px y 1024px
+320px, 768px y 1280px -- Puntos de ruptura 1024px y 544px
   que son sacados por las medias entre Pantallas
   470px, 665px, 999px, 1100px y 1500px. Checalos tambien
 
