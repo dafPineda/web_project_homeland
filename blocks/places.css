@@ -1,0 +1,105 @@
+.places {
+  margin: 50px 11vw 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "cricieth"
+    "berea"
+    "muramvya"
+    "chihuahua";
+}
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  column-gap: 4%;
+  row-gap: 5%;
+  color: #fff;
+}
+
+.place__title {
+  grid-column: 1;
+  grid-row: 1;
+  /**/
+  margin: 0;
+  font-size: 7vw;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 6rem;
+}
+.place__artista {
+  grid-column: 2;
+  grid-row: 1;
+  /**/
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.place__artista-title {
+  margin: 10px 0;
+  font-size: 14px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #aaaa;
+}
+.place__artista-name {
+  margin: 0;
+  font-size: 18px;
+  height: auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.place__paragraph {
+  grid-column: 2;
+  grid-row: 2 span;
+  /**/
+  display: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.place__text {
+  margin: 0px;
+  font-size: 15px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.place__image {
+  grid-column: 1;
+  grid-row: 2;
+  /**/
+  width: 38vw;
+  height: auto;
+  box-shadow: 19px 22px 75px #000;
+  justify-content: flex-start;
+}
+.place__button {
+  margin-top: 50px;
+  grid-column: 1;
+  grid-row: -2;
+  /**/
+  color: #fff;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  border-radius: 5px;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.place-tu-ciudad {
+  grid-area: chihuahua;
+}
+.place-berea {
+  grid-area: berea;
+}
+.place-muramvya {
+  grid-area: muramvya;
+}
+.place-cricieth {
+  grid-area: cricieth;
+}
