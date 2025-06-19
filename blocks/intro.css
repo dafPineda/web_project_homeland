@@ -26,7 +26,6 @@
   font-size: 30px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 40px;
-  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
@@ -45,23 +44,26 @@
 }
 @media (max-width: 1024px) {
   .intro {
-    margin-top: 5vh;
-    padding-left: 1.5vh;
-    padding-right: 1.5vh;
+    padding: 0;
+    margin-top: 70px;
+    padding: 0 5vw;
   }
   .intro__title {
-    line-height: 55px;
-    font-size: 50px;
+    padding-right: 7vw;
+    font-size: 6vw;
+    line-height: 3rem;
   }
   .intro__text {
+    padding: 0;
     margin: 0;
   }
   .intro__text_author {
-    font-size: 25px;
+    margin: 0;
+    font-size: 23px;
   }
   .intro__text_little {
-    margin-top: 3vh;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 16px;
   }
 }
 

@@ -103,3 +103,47 @@
 .place-cricieth {
   grid-area: cricieth;
 }
+
+@media (max-width: 1024px) {
+  .places {
+    margin: 5%;
+    margin-top: 100px;
+    gap: 65px;
+  }
+  .place {
+    grid-template-rows: 100px 1fr 2fr;
+    column-gap: 4vw;
+    row-gap: 5%;
+  }
+  .place__title {
+    grid-row: 1/2;
+    margin: 0;
+    margin-top: 20px;
+    width: 44vw;
+    height: 4rem;
+    font-size: 6vw;
+  }
+  .place__artista-title {
+    font-size: 18px;
+  }
+  .place__artista-name {
+    font-size: 20px;
+  }
+  .place__paragraph {
+    grid-row: 2/-1;
+  }
+  .place__text {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .place__image {
+    grid-row: 2 / -3;
+    width: 42vw;
+  }
+  .place__button {
+    margin: 0;
+    grid-row: -2;
+    width: 300px;
+    font-size: 17px;
+  }
+}
