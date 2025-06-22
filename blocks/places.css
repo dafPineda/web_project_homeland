@@ -111,16 +111,15 @@
     gap: 65px;
   }
   .place {
-    grid-template-rows: 100px 1fr 2fr;
-    column-gap: 4vw;
+    grid-template-rows: 100px 1fr 1fr;
+    column-gap: 50px;
     row-gap: 5%;
   }
   .place__title {
     grid-row: 1/2;
     margin: 0;
-    margin-top: 20px;
     width: 44vw;
-    height: 4rem;
+    line-height: 50px;
     font-size: 6vw;
   }
   .place__artista-title {
@@ -137,12 +136,13 @@
     line-height: 25px;
   }
   .place__image {
-    grid-row: 2 / -3;
+    grid-row: 2;
     width: 42vw;
+    height: 42vw;
   }
   .place__button {
     margin: 0;
-    grid-row: -2;
+    grid-row: 3;
     width: 300px;
     font-size: 17px;
   }
