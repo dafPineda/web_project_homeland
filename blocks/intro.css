@@ -71,14 +71,15 @@
   .intro__title {
     line-height: 35px;
     font-size: 2rem;
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .intro__text {
     margin-top: 10px;
     font-size: 0.99rem;
+    line-height: 1.5rem;
   }
   .intro__text_little {
-    margin-top: 80px;
-    font-size: 0.99rem;
+    margin-top: 50px;
+    font-size: 0.79rem;
   }
 }
