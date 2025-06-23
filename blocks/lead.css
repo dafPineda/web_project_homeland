@@ -58,17 +58,18 @@
 }
 @media (max-width: 544px) {
   .lead__title {
-    font-size: 45px;
+    margin-top: 50px;
+    font-size: 11vw;
     line-height: 50px;
   }
   .lead__subtitle {
-    width: 295px;
-    font-size: 16px;
-    margin-top: -5vh;
+    margin-top: 20px;
+    width: 85vw;
+    font-size: 0.9rem;
     line-height: 20px;
   }
   .lead__image {
-    margin-top: 0vh;
+    margin-top: 70px;
     padding: 0;
   }
 }

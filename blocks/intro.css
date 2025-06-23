@@ -70,14 +70,15 @@
 @media (max-width: 544px) {
   .intro__title {
     line-height: 35px;
-    font-size: 32px;
-    margin-top: -2vh;
+    font-size: 2rem;
+    margin-top: 80px;
   }
   .intro__text {
-    font-size: 22px;
+    margin-top: 10px;
+    font-size: 0.99rem;
   }
   .intro__text_little {
-    margin-top: 1vh;
-    font-size: 16px;
+    margin-top: 80px;
+    font-size: 0.99rem;
   }
 }
