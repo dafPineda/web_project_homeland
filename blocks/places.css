@@ -61,8 +61,8 @@
   grid-column: 1;
   grid-row: 2;
   width: 38vw;
-  height: auto;
-  box-shadow: 10px 10px 25px #000;
+  height: max-content;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   justify-content: flex-start;
 }
 .places__button {
@@ -70,7 +70,7 @@
   grid-column: 1;
   grid-row: -2;
   color: #fff;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 5px;
   width: 350px;
   height: 50px;
@@ -78,6 +78,10 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 600;
   box-shadow: 5px 5px 10px #000;
+}
+
+.places__button:hover {
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
 }
 
 @media (max-width: 1024px) {
